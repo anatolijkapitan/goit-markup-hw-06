@@ -614,7 +614,7 @@ body {
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
-    /* display: flex; */
+    display: inline-flex;
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
@@ -628,8 +628,8 @@ body {
 .btn-icon {
     fill: #FFFFFF;
     margin-left: 10px;
-    /* display: flex;
-    align-item: center; */
+    display: flex;
+    align-items: center;
 }
 
 .footer .container {
@@ -873,6 +873,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .check-icon {
